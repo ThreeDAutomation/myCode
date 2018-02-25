@@ -6,8 +6,8 @@ files:
 permissions:
    - object: /var/www/html
      pattern: "**"
-     owner: apache
-     group: apache
+     owner: ec2-user
+     group: wheel
      mode: 755
      type:
        - file
